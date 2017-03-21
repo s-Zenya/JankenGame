@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>じゃんけんゲーム</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>じゃんけんゲーム</h1>
+            <div class="you-hand">
+                <h2>
+                    相手
+                </h2>
+                <div>
+                    <img src="img/rock.png" alt="" />
+                </div>
+            </div>
+            <div class="message">
+                じゃんけん！
+            </div>
+            <div class="my-hand">
+                <h2 id='result'>
+                    自分
+                </h2>
+                出す手を選んでね<br>
+                <div class="my-hand-item">
+                    <label id="label-rock" for="my-hand-rock" >
+                        <input class="my-hand-radio" id="my-hand-rock" type="radio" name="my-hand" value="rock">
+                        <img src="img/rock.png" alt="グー"/>
+                    </label>
+                </div>
+                <div class="my-hand-item">
+                    <label id="label-scissors" for="my-hand-scissors">
+                        <input class="my-hand-radio" id="my-hand-scissors" type="radio" name="my-hand" value="scissors">
+                        <img src="img/scissors.png" alt="チョキ" />
+                    </label>
+                </div>
+                <div class="my-hand-item">
+                    <label id="labrl-paper" for="my-hand-paper">
+                        <input class="my-hand-radio" id="my-hand-paper" type="radio" name="my-hand" value="paper">
+                        <img src="img/paper.png" alt="パー" />
+                    </label>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="janken.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript">
+            init();
+        </script>
+    </body>
+</html>
