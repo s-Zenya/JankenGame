@@ -1,0 +1,17 @@
+##Android体験　準備内容
+
+#ログイン方法
+ID:Design
+PASS:Ds@20150312
+
+#Eclepse起動方法
+コンピュータ>ローカルディスクD>AndroidApp>起動
+86行目がコメントアウトになっているか確認
+
+アンドロイド端末をPCに接続後電源をけ画面を拭く
+
+
+片付け内容
+Ａｎｄｒｏｉｄ端末のDownroadフォルダの中身を消す
+AndroidAppの中身を消す。
+AndroidApp>workSpace>srcを消しSrcCをコピー後同じティレクトリ内に貼り付け。コピーフォルダ名srcに変更
